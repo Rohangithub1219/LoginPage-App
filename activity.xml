@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress DeprecatedClassUsageInspection -->
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+tools:ignore="Deprecated">
+  
+<TextView
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_x="50dp"
+android:layout_y="20dp" 
+android:text="Student Login" 
+android:textSize="30sp" 
+tools:ignore="HardcodedText" />
+
+<TextView
+android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:layout_x="20dp"
+  android:layout_y="110dp"
+  android:text="User name:"
+  android:textSize="20sp"
+
+tools:ignore="Autofill,HardcodedText,LabelFor,SpeakableTextPresentCheck" />
+
+<EditText
+android:id="@+id/username"
+  android:layout_width="150dp"
+  android:layout_height="wrap_content"
+  android:layout_x="175dp"
+  android:layout_y="100dp"
+  android:inputType="text"
+  android:textSize="20sp"
+tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck" />
+
+<TextView
+android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_x="20dp"
+  android:layout_y="160dp" 
+  android:text="Email ID:"
+  android:textSize="20sp"
+  tools:ignore="HardcodedText" />
+
+<EditText
+android:id="@+id/EmailID"
+android:layout_width="150dp"
+android:layout_height="wrap_content"
+android:layout_x="175dp" 
+android:layout_y="150dp" 
+android:inputType="text"
+android:textSize="20sp"
+tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields"
+ 
+/>
+
+<TextView
+android:layout_width="wrap_content" 
+  android:layout_height="wrap_content"
+  android:layout_x="20dp" 
+  android:layout_y="210dp"
+  android:text="Password:"
+  android:textSize="20sp" 
+  tools:ignore="HardcodedText" />
+
+<EditText
+android:id="@+id/Password" 
+  android:layout_width="150dp"
+  android:layout_height="wrap_content"
+  android:layout_x="175dp" 
+  android:layout_y="200dp" 
+  android:inputType="number" 
+  android:textSize="20sp"
+tools:ignore="Autofill,LabelFor,SpeakableTextPresentCheck,TextFields"
+/>
+
+<Button
+android:id="@+id/Insert" 
+  android:layout_width="150dp" 
+  android:layout_height="wrap_content" 
+  android:layout_x="25dp" 
+  android:layout_y="300dp"
+  android:text="Insert"
+  android:textSize="30dp"
+  tools:ignore="HardcodedText,SpUsage" />
+
+<Button
+android:id="@+id/Delete"
+  android:layout_width="150dp"
+  android:layout_height="wrap_content"
+  android:layout_x="200dp"
+  android:layout_y="300dp"
+  android:text="Delete"
+  android:textSize="30dp" 
+  tools:ignore="HardcodedText,SpUsage" />
+
+<Button
+android:id="@+id/Update" 
+  android:layout_width="150dp" 
+  android:layout_height="wrap_content" 
+  android:layout_x="25dp"
+  android:layout_y="400dp"
+  android:text="Update" 
+  android:textSize="30dp" 
+  tools:ignore="HardcodedText,SpUsage" />
+
+<Button
+android:id="@+id/View" 
+  android:layout_width="150dp"
+  android:layout_height="wrap_content"
+  android:layout_x="200dp"
+  android:layout_y="400dp" 
+  android:text="View" 
+  android:textSize="30dp"
+  tools:ignore="HardcodedText,SpUsage" />
+
+<Button
+android:id="@+id/ViewAll"
+  android:layout_width="200dp"
+  android:layout_height="wrap_content"
+  android:layout_x="100dp"
+  android:layout_y="500dp"
+  android:text="View All" 
+  android:textSize="30dp" 
+  tools:ignore="HardcodedText,SpUsage" />
+
+</AbsoluteLayout>
